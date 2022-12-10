@@ -1,0 +1,44 @@
+.container{
+    text-align: center; 
+    width: 1425px;
+    margin: auto;
+    font-size:small;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 30%;
+    height: 90px;
+    padding: 0 ;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(98, 179, 170);
+}
+#arama {
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    width: 95% ;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: medium;
+    margin-bottom: 1px;
+
+}
+#logo {
+    margin-right: 550px;
+    margin-left: 550px;
+    text-align: center;
+    padding: 0;
+    width: 351px;
+    height: 113px;
+}
